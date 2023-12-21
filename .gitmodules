@@ -1,0 +1,6 @@
+[submodule "todo-api-prisma-express"]
+	path = todo-api-prisma-express
+	url = https://github.com/JavaScriptBOSZ/todo-api-prisma-express.git
+[submodule "todo-nuxt"]
+	path = todo-nuxt
+	url = https://github.com/NuxtBOSZ/todo-nuxt.git
