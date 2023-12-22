@@ -1,6 +1,6 @@
 version: '3.3'
 services:
-  my-nuxt-app:
+  todo-front:
     build:
       context: ./todo-nuxt
       dockerfile: Dockerfile
@@ -8,3 +8,11 @@ services:
     restart: unless-stopped
     ports:
       - 3000:3000
+  todo-back:
+    build:
+      context: ./todo-api-prisma-express
+      dockerfile: Dockerfile
+    container_name: api
+    restart: unless-stopped
+    ports:
+      - 3300:3300
