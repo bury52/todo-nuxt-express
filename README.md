@@ -12,7 +12,8 @@ git submodule init
 ```bash
 git submodule update
 ```
-pacman : [sudo pacman -S docker-compose](https://archlinux.org/packages/extra/x86_64/docker-compose/) : 2.23.3-1 < I use this version
+pacman : [sudo pacman -S docker-compose](https://archlinux.org/packages/extra/x86_64/docker-compose/) : 2.23.3-1 < I u
+
 <br/>
 apt : [on arch it's probably easier](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04) : none 
 ```bash
