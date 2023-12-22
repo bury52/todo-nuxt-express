@@ -16,6 +16,7 @@ pacman : [sudo pacman -S docker-compose](https://archlinux.org/packages/extra/x8
 
 <br/>
 apt : [on arch it's probably easier](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04) : none 
+
 ```bash
 docker-compose up -d
 ```
